@@ -1,6 +1,6 @@
 require 'pry'
 
-binding.pry
+#binding.pry
 def hopper
 	programmer_hash = 
  		{
