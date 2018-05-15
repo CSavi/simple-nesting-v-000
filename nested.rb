@@ -17,7 +17,7 @@ def hopper
      }
 
 
-programmer_hash.delete(grace_hopper)
+programmer_hash.delete(:grace_hopper)
 puts programmer_hash
 
 end 
