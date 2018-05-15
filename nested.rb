@@ -1,5 +1,7 @@
+require 'pry'
 
 def hopper
+  binding.pry
 	programmer_hash = 
  		{
         :grace_hopper => {
@@ -16,9 +18,6 @@ def hopper
         }
      }
 
-
-programmer_hash.delete(:grace_hopper)
-puts programmer_hash
 
 end 
 
